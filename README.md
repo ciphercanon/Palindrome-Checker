@@ -22,6 +22,6 @@ ideas = I plan out the layout of how i wanted for this and had a theme which was
 ## Part of FreeCodeCamp
 https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/build-a-palindrome-checker-project/build-a-palindrome-checker
 
-##Extra Comment By Me
+## Extra Comment By Me
 for nearly all of these javascript project i did not use media query except for some of them and this is because i did not understand much of it even after the html and css courses, but only
 after i found the importance did i use it and in all these javascript project i try to use most of what i learn of html and css and even those i dont understand from the courses so that i could understand them more.
