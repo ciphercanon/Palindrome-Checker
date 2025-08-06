@@ -2,7 +2,7 @@
 on the eight day of learning JavaScript via FreeCodeCamp
 
 ## Live Site
-[See live on netlify] - https://technical-page-1.netlify.app/
+[See live on netlify] - https://palindrome-checker-1-0.netlify.app/?
 
 ## Features
 
