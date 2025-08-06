@@ -1,0 +1,101 @@
+body{
+  background-color: rgba(130, 3, 222, 0.818);
+  overflow: hidden;
+}
+
+.outer-box{
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  margin: 40px auto;
+  padding: 0;
+  background: linear-gradient(rgba(19, 3, 198, 0.818),rgba(130, 3, 222, 0.818));
+  border-radius: 10px;
+  box-shadow: 5px 5px rgba(133, 11, 255, 0.818);
+  height: 500px;
+  width: 100%;
+  max-width: 1000px;
+  min-width: 300px;
+  overflow: hidden;
+}
+
+.inner-box{
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  margin: 20px ;
+  padding: 20px;
+  background: linear-gradient(120deg,rgb(255, 255, 255),rgb(223, 222, 222));
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.818);
+  width: 100%;
+  overflow: hidden;
+}
+
+.title{
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  box-shadow: 3px 3px 5px  rgba(78, 0, 234, 0.955);
+  margin: 10px auto;
+  overflow: hidden;
+  padding: 1px;
+  border-bottom: 4px solid rgb(3, 36, 94);
+}
+
+.text-input{
+  width: 100%;
+  margin: 20px 20px 20px 0;
+  height: 30px;
+  font-size: 30px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 4px 3px  rgba(17, 11, 77, 0.818);
+  font-style: sans-serif,italic;
+}
+
+.comment-text{
+  border-bottom: 2px solid rgba(1, 1, 1, 0.955);
+  border-top: 2px solid rgba(9, 9, 9, 0.893);
+  height: 100%;
+  margin: 20px 10px 10px 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.button-box{
+  display: grid;
+  grid-template-columns: (auto-fit, minmax(260px, 2fr));
+}
+
+.button{
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 8px auto;
+  box-shadow: 0px 5px 5px  rgba(218, 217, 218, 0.818);
+  background: linear-gradient(rgb(237, 236, 236)30%,rgb(218, 214, 214),rgb(237, 236, 236)30%);
+}
+
+.click{
+  box-shadow: none;
+  background: linear-gradient(rgb(152, 152, 152)30%,rgb(60, 59, 59));
+}
+
+@keyframes magical {
+  100%{
+    transform: rotate(720deg);
+  }
+}
+
+.magic:hover{
+  display: inline-block;
+  cursor: pointer;
+  animation: magical 5s linear infinite;
+  color: blue;
+}
